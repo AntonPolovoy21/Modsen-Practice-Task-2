@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		848954552C2087CD00AFB43B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848954542C2087CD00AFB43B /* AppDelegate.swift */; };
 		848954572C2087CD00AFB43B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848954562C2087CD00AFB43B /* SceneDelegate.swift */; };
-		848954592C2087CD00AFB43B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848954582C2087CD00AFB43B /* ViewController.swift */; };
 		8489545C2C2087CD00AFB43B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8489545A2C2087CD00AFB43B /* Main.storyboard */; };
 		8489545E2C2087CF00AFB43B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8489545D2C2087CF00AFB43B /* Assets.xcassets */; };
 		848954612C2087CF00AFB43B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8489545F2C2087CF00AFB43B /* LaunchScreen.storyboard */; };
+		848954822C208D5900AFB43B /* OnboardingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489547A2C208D5900AFB43B /* OnboardingRouter.swift */; };
+		848954832C208D5900AFB43B /* OnboardingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489547B2C208D5900AFB43B /* OnboardingPresenter.swift */; };
+		848954842C208D5900AFB43B /* OnboardingSlideCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489547D2C208D5900AFB43B /* OnboardingSlideCollectionViewCell.swift */; };
+		848954852C208D5900AFB43B /* OnboardingBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489547E2C208D5900AFB43B /* OnboardingBuilder.swift */; };
+		848954862C208D5900AFB43B /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848954802C208D5900AFB43B /* OnboardingSlide.swift */; };
+		848954872C208D5900AFB43B /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848954812C208D5900AFB43B /* OnboardingViewController.swift */; };
+		848954962C208DDB00AFB43B /* UIView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489548F2C208DDB00AFB43B /* UIView + Extensions.swift */; };
+		848954982C208DDB00AFB43B /* UIStackView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848954912C208DDB00AFB43B /* UIStackView + Extensions.swift */; };
+		8489549D2C208E2100AFB43B /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489549B2C208E2100AFB43B /* Image.swift */; };
+		8489549F2C209D3D00AFB43B /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489549E2C209D3D00AFB43B /* MainScreen.swift */; };
+		848954A72C209EC400AFB43B /* Abel-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 848954A62C209EC400AFB43B /* Abel-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		848954512C2087CD00AFB43B /* OnboardingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnboardingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848954542C2087CD00AFB43B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		848954562C2087CD00AFB43B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		848954582C2087CD00AFB43B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8489545B2C2087CD00AFB43B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8489545D2C2087CF00AFB43B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848954602C2087CF00AFB43B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848954622C2087CF00AFB43B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8489547A2C208D5900AFB43B /* OnboardingRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingRouter.swift; sourceTree = "<group>"; };
+		8489547B2C208D5900AFB43B /* OnboardingPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingPresenter.swift; sourceTree = "<group>"; };
+		8489547D2C208D5900AFB43B /* OnboardingSlideCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingSlideCollectionViewCell.swift; sourceTree = "<group>"; };
+		8489547E2C208D5900AFB43B /* OnboardingBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingBuilder.swift; sourceTree = "<group>"; };
+		848954802C208D5900AFB43B /* OnboardingSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		848954812C208D5900AFB43B /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		8489548F2C208DDB00AFB43B /* UIView + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView + Extensions.swift"; sourceTree = "<group>"; };
+		848954912C208DDB00AFB43B /* UIStackView + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extensions.swift"; sourceTree = "<group>"; };
+		8489549B2C208E2100AFB43B /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		8489549E2C209D3D00AFB43B /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		848954A62C209EC400AFB43B /* Abel-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Abel-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,97 @@
 		848954532C2087CD00AFB43B /* OnboardingApp */ = {
 			isa = PBXGroup;
 			children = (
+				848954622C2087CF00AFB43B /* Info.plist */,
+				848954A52C209EB100AFB43B /* Fonts */,
+				848954A32C209E7E00AFB43B /* Views */,
+				848954A22C209E6F00AFB43B /* Sources */,
+				848954992C208E2100AFB43B /* Enums */,
+				8489548A2C208DDB00AFB43B /* Extensions */,
+			);
+			path = OnboardingApp;
+			sourceTree = "<group>";
+		};
+		848954792C208D5900AFB43B /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8489547A2C208D5900AFB43B /* OnboardingRouter.swift */,
+				8489547B2C208D5900AFB43B /* OnboardingPresenter.swift */,
+				8489547C2C208D5900AFB43B /* Custom UI */,
+				8489547E2C208D5900AFB43B /* OnboardingBuilder.swift */,
+				8489547F2C208D5900AFB43B /* Models */,
+				848954812C208D5900AFB43B /* OnboardingViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		8489547C2C208D5900AFB43B /* Custom UI */ = {
+			isa = PBXGroup;
+			children = (
+				8489547D2C208D5900AFB43B /* OnboardingSlideCollectionViewCell.swift */,
+			);
+			path = "Custom UI";
+			sourceTree = "<group>";
+		};
+		8489547F2C208D5900AFB43B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				848954802C208D5900AFB43B /* OnboardingSlide.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8489548A2C208DDB00AFB43B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8489548F2C208DDB00AFB43B /* UIView + Extensions.swift */,
+				848954912C208DDB00AFB43B /* UIStackView + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		848954992C208E2100AFB43B /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				8489549B2C208E2100AFB43B /* Image.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		848954A22C209E6F00AFB43B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
 				848954542C2087CD00AFB43B /* AppDelegate.swift */,
 				848954562C2087CD00AFB43B /* SceneDelegate.swift */,
-				848954582C2087CD00AFB43B /* ViewController.swift */,
 				8489545A2C2087CD00AFB43B /* Main.storyboard */,
 				8489545D2C2087CF00AFB43B /* Assets.xcassets */,
 				8489545F2C2087CF00AFB43B /* LaunchScreen.storyboard */,
-				848954622C2087CF00AFB43B /* Info.plist */,
 			);
-			path = OnboardingApp;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		848954A32C209E7E00AFB43B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				848954A42C209E8D00AFB43B /* Main */,
+				848954792C208D5900AFB43B /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		848954A42C209E8D00AFB43B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8489549E2C209D3D00AFB43B /* MainScreen.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		848954A52C209EB100AFB43B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				848954A62C209EC400AFB43B /* Abel-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +230,7 @@
 				848954612C2087CF00AFB43B /* LaunchScreen.storyboard in Resources */,
 				8489545E2C2087CF00AFB43B /* Assets.xcassets in Resources */,
 				8489545C2C2087CD00AFB43B /* Main.storyboard in Resources */,
+				848954A72C209EC400AFB43B /* Abel-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +241,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848954592C2087CD00AFB43B /* ViewController.swift in Sources */,
+				8489549F2C209D3D00AFB43B /* MainScreen.swift in Sources */,
+				848954962C208DDB00AFB43B /* UIView + Extensions.swift in Sources */,
 				848954552C2087CD00AFB43B /* AppDelegate.swift in Sources */,
+				848954822C208D5900AFB43B /* OnboardingRouter.swift in Sources */,
+				848954982C208DDB00AFB43B /* UIStackView + Extensions.swift in Sources */,
+				848954832C208D5900AFB43B /* OnboardingPresenter.swift in Sources */,
+				848954852C208D5900AFB43B /* OnboardingBuilder.swift in Sources */,
+				848954862C208D5900AFB43B /* OnboardingSlide.swift in Sources */,
+				848954842C208D5900AFB43B /* OnboardingSlideCollectionViewCell.swift in Sources */,
+				8489549D2C208E2100AFB43B /* Image.swift in Sources */,
+				848954872C208D5900AFB43B /* OnboardingViewController.swift in Sources */,
 				848954572C2087CD00AFB43B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,8 +409,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +419,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Polovoy.OnboardingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -324,8 +440,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,9 +450,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Polovoy.OnboardingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
