@@ -11,7 +11,7 @@ enum MainScreenBuilder {
     static func setupModule() -> MainScreenViewController {
         let viewController = MainScreenViewController()
         let router = MainScreenRouter(viewController: viewController)
-        let presenter = MainScreenPresenter(input: viewController as! MainScreenInput, router: router as! MainScreenRouterInput)
+        let presenter = MainScreenPresenter(input: viewController, router: router)
         viewController.output = presenter
         return viewController
     }

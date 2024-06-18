@@ -14,7 +14,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard (scene is UIWindowScene) else { return }
         self.setupWindow(with: scene)
-        isOnboardingCompleted()
     }
     
     public func setupWindow(with scene: UIScene) {
@@ -27,7 +26,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     private func setupRootViewController(with viewController: UIViewController) {
         DispatchQueue.main.async { [weak self] in
             UIView.animate(withDuration: 0.25) {
-                self?.window?.layer.opacity = 0
+                self?.window?.layer.opacity = 0.5
             } completion: { [weak self] _ in
                 let navController = UINavigationController(rootViewController: viewController)
                 self?.window?.rootViewController = navController
@@ -44,7 +43,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             self.setupRootViewController(with: OnboardingBuilder.setupModule())
         }
         else {
-            self.setupRootViewController(with: MainScreen())
+            self.setupRootViewController(with: MainScreenBuilder.setupModule())
         }
     }
 }

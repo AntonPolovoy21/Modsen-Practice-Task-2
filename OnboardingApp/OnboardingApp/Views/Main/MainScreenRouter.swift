@@ -19,3 +19,9 @@ final class MainScreenRouter {
         self.viewController = viewController
     }
 }
+
+extension MainScreenRouter: MainScreenRouterInput {
+    func returnToOnboarding() {
+//        some
+    }
+}

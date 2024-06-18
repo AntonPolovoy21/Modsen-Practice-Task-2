@@ -13,10 +13,10 @@ protocol MainScreenViewOutput {
 
 final class MainScreenPresenter: MainScreenViewOutput {
     
-    private unowned let input: MainScreenInput
-    private let router: MainScreenRouterInput
+    private unowned let input: MainScreenViewController
+    private let router: MainScreenRouter
     
-    init(input: MainScreenInput, router: MainScreenRouterInput) {
+    init(input: MainScreenViewController, router: MainScreenRouter) {
         self.input = input
         self.router = router
     }
