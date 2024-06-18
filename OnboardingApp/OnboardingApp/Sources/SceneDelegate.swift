@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     public func setupWindow(with scene: UIScene) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         self.window = UIWindow(windowScene: windowScene)
-        self.setupRootViewController(with: OnboardingBuilder.setupModule())
+        isOnboardingCompleted()
         self.window?.makeKeyAndVisible()
     }
     
@@ -43,9 +43,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if !UserDefaults.standard.bool(forKey: "wasEnded") {
             self.setupRootViewController(with: OnboardingBuilder.setupModule())
         }
-//         else if UserDefaultsManager.isOnboardingComplete == true {
-//            self.setupRootViewController(with: Mai())
-//        }
+        else {
+            self.setupRootViewController(with: MainScreen())
+        }
     }
 }
 

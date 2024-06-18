@@ -25,7 +25,7 @@ final class OnboardingPresenter: OnboardingViewOutput {
     
     func circleButtonTouchUpInside(_ sender: UIButton) {
         if input.isLastSlide() {
-//            UserDefaults.standard.setValue(true, forKey: "wasEnded")
+            UserDefaults.standard.setValue(true, forKey: "wasEnded")
             router.navigateToMainScreen()
         } else {
             input.nextCollectionViewItem()
@@ -33,7 +33,7 @@ final class OnboardingPresenter: OnboardingViewOutput {
     }
     
     func skipButtonTouchUpInside(_ sender: UIButton) {
-//        UserDefaults.standard.setValue(true, forKey: "wasEnded")
+        UserDefaults.standard.setValue(true, forKey: "wasEnded")
         router.navigateToMainScreen()
     }
     
