@@ -23,7 +23,7 @@ final class OnboardingRouter {
 extension OnboardingRouter: OnboardingRouterInput {
     func navigateToMainScreen() {
         if self.viewController.view.window?.windowScene?.delegate is SceneDelegate {
-            let vc = MainScreen()
+            let vc = MainScreenViewController()
             vc.modalPresentationStyle = .fullScreen
             self.viewController.present(vc, animated: true)
         }

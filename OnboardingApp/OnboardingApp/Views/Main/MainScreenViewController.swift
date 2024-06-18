@@ -7,7 +7,14 @@
 
 import UIKit
 
-class MainScreen: UIViewController {
+protocol MainScreenInput: AnyObject {
+    
+}
+
+class MainScreenViewController: UIViewController {
+    
+    var output: MainScreenViewOutput?
+    
     private lazy var textLabel: UILabel = {
         let label = UILabel()
         
@@ -24,8 +31,7 @@ class MainScreen: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .color4
-        
-        view.addSubview(textLabel)
+        self.view.addSubview(textLabel)
         
         textLabel.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
